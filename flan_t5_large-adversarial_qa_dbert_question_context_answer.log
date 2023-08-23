@@ -1,0 +1,55 @@
+[2023-08-19 17:53:37,801] [INFO] [real_accelerator.py:133:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Evaluating on task (zero shot):  boolean_expressions
+Accuracy:  54.0
+Evaluating on task (zero shot):  disambiguation_qa
+Accuracy:  0.0
+Evaluating on task (zero shot):  multistep_arithmetic_two
+Accuracy:  0.6666666666666667
+Evaluating on task (zero shot):  temporal_sequences
+Accuracy:  15.333333333333332
+Evaluating on task (zero shot):  dyck_languages
+Accuracy:  1.3333333333333335
+Evaluating on task (zero shot):  penguins_in_a_table
+Accuracy:  43.47826086956522
+Evaluating on task (zero shot):  tracking_shuffled_objects_seven_objects
+Accuracy:  6.666666666666667
+Evaluating on task (zero shot):  tracking_shuffled_objects_three_objects
+Accuracy:  11.333333333333332
+Evaluating on task (zero shot):  formal_fallacies
+Accuracy:  51.33333333333333
+Evaluating on task (zero shot):  reasoning_about_colored_objects
+Accuracy:  32.666666666666664
+Evaluating on task (zero shot):  causal_judgement
+Accuracy:  57.47126436781609
+Evaluating on task (zero shot):  movie_recommendation
+Accuracy:  60.66666666666667
+Evaluating on task (zero shot):  logical_deduction_five_objects
+Accuracy:  15.333333333333332
+Evaluating on task (zero shot):  ruin_names
+Accuracy:  20.0
+Evaluating on task (zero shot):  word_sorting
+Accuracy:  0.6666666666666667
+Evaluating on task (zero shot):  date_understanding
+Accuracy:  16.0
+Evaluating on task (zero shot):  navigate
+Accuracy:  47.333333333333336
+Evaluating on task (zero shot):  logical_deduction_seven_objects
+Accuracy:  5.333333333333334
+Evaluating on task (zero shot):  geometric_shapes
+Accuracy:  7.333333333333333
+Evaluating on task (zero shot):  object_counting
+Accuracy:  34.0
+Evaluating on task (zero shot):  sports_understanding
+Accuracy:  56.00000000000001
+Evaluating on task (zero shot):  snarks
+Accuracy:  47.43589743589743
+Evaluating on task (zero shot):  logical_deduction_three_objects
+Accuracy:  0.0
+Evaluating on task (zero shot):  salient_translation_error_detection
+Accuracy:  34.66666666666667
+Evaluating on task (zero shot):  hyperbaton
+Accuracy:  0.6666666666666667
+Evaluating on task (zero shot):  tracking_shuffled_objects_five_objects
+Accuracy:  10.666666666666668
+Evaluating on task (zero shot):  web_of_lies
+Accuracy:  54.0

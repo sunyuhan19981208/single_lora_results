@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/data/sdb/sunyuhan/exp/lorahub/reproduce_bbh.py", line 60, in <module>
+    model = PeftModel.from_pretrained(model, args.lora_model)
+  File "/root/miniconda3/lib/python3.10/site-packages/peft/peft_model.py", line 271, in from_pretrained
+    model.load_adapter(model_id, adapter_name, is_trainable=is_trainable, **kwargs)
+  File "/root/miniconda3/lib/python3.10/site-packages/peft/peft_model.py", line 529, in load_adapter
+    has_remote_safetensors_file = hub_file_exists(
+  File "/root/miniconda3/lib/python3.10/site-packages/peft/utils/hub_utils.py", line 24, in hub_file_exists
+    url = hf_hub_url(repo_id=repo_id, filename=filename, repo_type=repo_type, revision=revision)
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/data/sdb/sunyuhan/exp/lorahub_models/flan_t5_large-dream_baseline'. Use `repo_type` argument if needed.
